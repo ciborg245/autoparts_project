@@ -13,13 +13,13 @@ app.use('/api', routes);
 app.listen(8080, function(){
   console.log("http:/localhost:8080")
 });
-//
+
 // const parts = require('./models').parts;
 // parts.create({
-//     name: 'Clavos 2"',
-//     weight: 0.25,
-//     price: 0.9,
-//     color: "Gris"
+//     name: 'Llanta 17"',
+//     weight: 70,
+//     price: 9500,
+//     color: "gris"
 // })
 
 

@@ -7,8 +7,8 @@ usersController.createUser = function(req, res) {
         firstname: req.body.firstname,
         lastname: req.body.lastname,
         email: req.body.email,
-        pass: hashpass(req.body.password),
-        direction: req.body.direction
+        password: hashpass(req.body.password),
+        direction: req.body.address
     }).then(user => {
         res.send({success: true})
     });

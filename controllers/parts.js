@@ -5,7 +5,7 @@ partsController = {};
 
 partsController.getParts = function(req, res) {
     let query = 'SELECT name, weight, price, color ' +
-        "FROM parts WHERE name LIKE '%" + req.params.search + "%'";
+        "FROM parts WHERE name LIKE '%" + req.query.search + "%'";
 
     console.log(query);
 

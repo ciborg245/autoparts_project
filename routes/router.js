@@ -5,6 +5,6 @@ const partsController = require('../controllers/parts')
 
 router.get('/', function(req, res) {res.send("welcome")});
 router.post('/user', usersController.createUser)
-router.get('/parts/:search', partsController.getParts)
+router.get('/parts', partsController.getParts)
 
 module.exports = router;
